@@ -1,0 +1,19 @@
+{
+  "name": "anchovy",
+  "version": "0.0.1",
+  "description": "command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ning-github/anchovy.git"
+  },
+  "author": "Ning Xia <nxiamail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ning-github/anchovy/issues"
+  },
+  "homepage": "https://github.com/ning-github/anchovy#readme"
+}
