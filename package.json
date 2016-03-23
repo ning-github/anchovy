@@ -1,13 +1,13 @@
 {
   "name": "anchovy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "command line tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-     "anchovy": "./index.js"
+    "anchovy": "./index.js"
   },
   "repository": {
     "type": "git",
