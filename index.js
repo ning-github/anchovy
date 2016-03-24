@@ -13,7 +13,7 @@ program
         var args = Array.prototype.slice.call(arguments);
         var name = args.slice(0, args.length-1).join(" ");
         co(function* (){
-            var username = yield prompt("Enter GitHub username? ");
+            var username = yield prompt("Enter GitHub username: ");
             var password = yield prompt.password("Enter GitHub password: ");
             request
                 .post(apiURL)
