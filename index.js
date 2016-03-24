@@ -21,7 +21,7 @@ program
                 .send({name: name})
                 .set("Accept", "application/json")
                 .end(function (err, res){
-                    console.log("Created repo at: ", res.body.url);
+                    console.log("Created repo at: ", res.body.clone_url);
                 });
         });
     })
