@@ -1,2 +1,2 @@
 # anchovy
-command line tool
+a command line tool for creating GitHub repos
